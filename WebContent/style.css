@@ -1,0 +1,45 @@
+@CHARSET "UTF-8";
+*{
+	margin:0;
+	padding:0;
+}
+body,html{
+	width:100%;
+	height:100%;
+}
+header{
+	height:12%;
+	background-color:lightgray;
+	line-height:650%;
+}
+nav{
+	height:5%;
+	background-color:black;
+	line-height:250%;
+}
+nav ul{
+	text-align:left;
+}
+nav li{
+	display:inline;
+	margin:2%;
+}
+nav li a{
+	text-decoration:none;
+	color:white;
+	font-weight:bold;
+}
+nav li a:hover{
+	color:red;
+}
+section{
+	height:78%;
+}
+section li{
+	margin-left:3%;
+}
+footer{
+	height:5%;
+	background-color:silver;
+	line-height:250%;
+}
